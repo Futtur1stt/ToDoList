@@ -10,7 +10,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <link rel="stylesheet" href="./styles/styles.css" />
-    <script src="script.js" defer></script>
+    <script src="script.js" type="module"></script>
   </head>
   <body>
     <header class="header">
@@ -37,5 +37,99 @@
         </button>
       </div>
     </header>
+
+    <main class="content">
+      <div class="todo">
+        <h1 class="todo__title">To Do List</h1>
+        <form class="todo__form">
+          <div class="todo__field field">
+            <label for="new-task" class="field__label">New task title</label>
+            <input
+              class="field__input"
+              id="new-task"
+              type="text"
+              placeholder=" "
+              autocomplete="off"
+            />
+          </div>
+          <button class="button" type="button" title="Add new task">Add</button>
+        </form>
+        <form class="todo__form">
+          <div class="todo__field field">
+            <label for="search-task" class="field__label">Search task</label>
+            <input
+              class="field__input"
+              id="search-task"
+              type="search"
+              placeholder=" "
+              autocomplete="off"
+            />
+          </div>
+        </form>
+        <div class="todo__info">
+          <div class="todo__total-tasks">Total Tasks: <span>0</span></div>
+          <button
+            class="todo__delete-all-button"
+            type="button"
+            title="Delete all Tasks"
+          >
+            Delete All
+          </button>
+        </div>
+        <ul class="todo__list">
+          <li class="todo__item todo-item">
+            <input class="todo-item__checkbox" type="checkbox" id="todo-1" />
+            <label for="todo-1" class="todo-item__label">Todo 1</label>
+            <button
+              class="todo-item__delete-button"
+              aria-label="Delete"
+              title="Delete Task"
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 5L5 15M5 5L15 15"
+                  stroke="#757575"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </li>
+          <li class="todo__item todo-item">
+            <input class="todo-item__checkbox" type="checkbox" id="todo-1" />
+            <label for="todo-1" class="todo-item__label">Todo 1</label>
+            <button
+              class="todo-item__delete-button"
+              aria-label="Delete"
+              title="Delete Task"
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 5L5 15M5 5L15 15"
+                  stroke="#757575"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </li>
+        </ul>
+        <div class="todo__empty-message"></div>
+      </div>
+    </main>
   </body>
 </html>
