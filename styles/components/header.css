@@ -3,8 +3,6 @@
   justify-content: space-between;
   align-items: center;
   gap: 50px;
-  margin-top: 30px;
-  margin-inline: 50px;
 }
 
 .header:focus-visible {
