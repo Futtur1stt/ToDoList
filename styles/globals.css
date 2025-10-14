@@ -1,7 +1,8 @@
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   min-height: 100vh;
   padding: 100px 30px;
   font-family: "Inter", sans-serif;
