@@ -3,6 +3,7 @@
 @import "variables.css";
 @import "globals.css";
 @import "utils.css";
+@import "dark-theme.css";
 
 @import "components/header.css";
 @import "components/button.css";
