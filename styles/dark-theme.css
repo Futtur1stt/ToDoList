@@ -1,0 +1,126 @@
+body.dark-theme {
+  background-color: var(--color-dark-1);
+}
+
+body.dark-theme .header__wrapper {
+  background-color: var(--color-dark-2);
+  border: 1px solid var(--color-gray-4);
+  box-shadow: var(--box-shadow-dark);
+}
+
+body.dark-theme .header__button {
+  color: var(--color-white);
+
+  &:hover {
+    background-color: var(--color-black);
+  }
+}
+
+body.dark-theme .todo {
+  background-color: var(--color-dark-2);
+  border: 1px solid var(--color-white);
+  box-shadow: var(--box-shadow-dark);
+}
+
+body.dark-theme .todo__title {
+  color: var(--color-white);
+}
+
+body.dark-theme .todo__delete-all-button {
+  color: var(--color-white);
+
+  &:hover {
+    color: var(--color-gray-2);
+  }
+}
+
+body.dark-theme .todo__empty-message {
+  color: var(--color-white);
+}
+
+body.dark-theme .field {
+  &:has(.field__input:not(:placeholder-shown)) .field__label {
+    color: var(--color-white);
+  }
+}
+
+body.dark-theme .field__label {
+  color: var(--color-white);
+}
+
+body.dark-theme .field__input {
+  background-color: var(--color-dark-1);
+  color: var(--color-white);
+  border: 1px solid var(--color-gray-4);
+
+  &:hover,
+  &:focus {
+    color: var(--color-white);
+    border-color: var(--color-gray-3);
+  }
+
+  &:focus {
+    background-color: var(--color-dark-1);
+    border-color: var(--color-white);
+    outline: none;
+  }
+
+  &[type="search"] {
+    &:placeholder-shown {
+      background-image: url("../../icons/icon-search_white.svg");
+    }
+  }
+}
+
+body.dark-theme .button {
+  background-color: var(--color-gray-1);
+  color: var(--color-dark-1);
+
+  &:hover {
+    background-color: var(--color-black);
+    color: var(--color-white);
+  }
+}
+
+body.dark-theme .todo__total-tasks {
+  color: var(--color-white);
+}
+
+body.dark-theme .todo-item {
+  border: 1px solid var(--color-gray-4);
+  background-color: var(--color-dark-1);
+
+  &:hover {
+    border-color: var(--color-white);
+  }
+}
+
+body.dark-theme .todo-item__checkbox {
+  border: 1px solid var(--color-gray-4);
+
+  &:checked {
+    background-color: var(--color-white);
+    border-color: var(--color-dark-2);
+
+    & + .todo-item__label {
+      color: var(--color-gray-3);
+    }
+  }
+
+  &::after {
+    background: url("../../icons/icon-check_black.svg") center/contain no-repeat;
+  }
+}
+
+body.dark-theme .todo-item__label {
+  color: var(--color-white);
+}
+
+body.dark-theme .todo-item__delete-button {
+  color: var(--color-white);
+
+  &:hover {
+    color: var(--color-white);
+    background-color: var(--color-black);
+  }
+}
