@@ -7,10 +7,6 @@
   box-shadow: var(--box-shadow);
 }
 
-.header:focus-visible {
-  border: var(--border-light-theme);
-}
-
 .header__wrapper {
   display: inline-flex;
   justify-content: space-between;
