@@ -13,7 +13,7 @@
   align-items: center;
   width: 150px;
   height: 70px;
-  background-color: var(--color-gray-1);
+  background-color: transparent;
   backdrop-filter: blur(10px);
   border: 1px solid var(--color-dark-2);
   border-radius: 50px;
