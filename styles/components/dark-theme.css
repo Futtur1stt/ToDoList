@@ -67,7 +67,7 @@ body.dark-theme .field__input {
 
   &[type="search"] {
     &:placeholder-shown {
-      background-image: url("/icons/icon-search_white.svg");
+      background-image: url("../../icons/icon-search_white.svg");
     }
   }
 }
@@ -108,7 +108,7 @@ body.dark-theme .todo-item__checkbox {
   }
 
   &::after {
-    background: url("/icons/icon-check_black.svg") center/contain no-repeat;
+    background: url("../../icons/icon-check_black.svg") center/contain no-repeat;
   }
 }
 
