@@ -16,5 +16,13 @@ button {
 }
 
 :focus-visible {
-  border: 2px dashed var(--color-black);
+  outline: 2px dashed var(--color-black);
+  outline-offset: 4px;
+  transition-duration: 0s !important;
+}
+
+@media (max-width: 500px) {
+  body {
+    padding: 40px 15px;
+  }
 }

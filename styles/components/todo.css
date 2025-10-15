@@ -2,8 +2,7 @@
   display: flex;
   flex-direction: column;
   row-gap: 24px;
-  width: 100%;
-  min-width: 404px;
+  width: 404px;
   min-height: 429px;
   padding: 24px;
   background-color: var(--color-gray-2);
@@ -70,4 +69,10 @@
 .todo__empty-message {
   text-align: center;
   color: var(--color-gray-4);
+}
+
+@media (max-width: 500px) {
+  .todo {
+    width: 310px;
+  }
 }
