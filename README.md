@@ -49,6 +49,5 @@ ToDoList/</br>
 │ ├── normalize.css # Нормализация стилей</br>
 │ ├── utils.scss # Утилитарные стили</br>
 │ ├── variables.scss # Переменные для стилей</br>
-│ ├── dark-theme.css # Файл стилей для темной темы</br>
 │</br>
 └── icons/ # Папка с иконками</br>
